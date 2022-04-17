@@ -1,0 +1,19 @@
+@import 'general';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  height: 100vh;
+  background-color: $AlmostWhite;
+}
+
+.container.active {
+  filter: blur(2px);
+  background-color: $MediumGray;
+  opacity: 0.7;
+}

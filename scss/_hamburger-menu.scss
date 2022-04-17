@@ -1,0 +1,18 @@
+.toggle-button {
+  cursor: pointer;
+  position: absolute;
+  top: 1.3rem;
+  right: 0.6rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+
+  .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+  }
+}

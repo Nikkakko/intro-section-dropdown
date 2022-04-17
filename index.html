@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/app.js"></script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo__item-mobile">
+          <img src="././images/logo.svg" alt="" />
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <!-- sidebar -->
+
+        <!-- sidebarend -->
+
+        <nav class="header__nav">
+          <div class="left_items">
+            <div class="logo__item">
+              <img src="././images/logo.svg" alt="" />
+            </div>
+
+            <ul>
+              <li class="dropdown" data-dropdown>
+                <a class="link" href="#" data-dropdown-button>
+                  Features <img src="./images/icon-arrow-down.svg" alt="" />
+                </a>
+                <div class="dropdown-menu">
+                  <div class="information">
+                    <a href="#">
+                      <img src="./images/icon-todo.svg" alt="" /> <span>Todo List</span>
+                    </a>
+
+                    <a href="#">
+                      <img src="./images/icon-calendar.svg" alt="" /> <span>Calendar</span>
+                    </a>
+                    <a href="#">
+                      <img src="./images/icon-reminders.svg" alt="" /> <span>Reminders</span>
+                    </a>
+
+                    <a href="#">
+                      <img src="./images/icon-planning.svg" alt="" /> <span>Planning</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="dropdown" data-dropdown>
+                <a class="link" href="#" data-dropdown-button
+                  >Company <img src="./images/icon-arrow-down.svg" alt=""
+                /></a>
+                <div class="dropdown-menu">
+                  <div class="information-right">
+                    <a href="#"> <span>History</span> </a>
+                    <a href="#"><span>Our Team</span></a>
+                    <a href="#"><span>Blog</span></a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="right__items">
+            <a class="btn btn-login" href="#"> Login</a>
+            <a class="btn btn-registr" href="#"> Register</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="main__container">
+          <div class="main__container-left">
+            <div class="main__container-left-items">
+              <h1>
+                Make <br />
+                remote work
+              </h1>
+              <div class="par">
+                <p>
+                  Get your team in sync, no matter your location. Streamline processes, create team
+                  rituals, and watch productivity soar.
+                </p>
+              </div>
+              <div class="learn-more">
+                <a class="btn-more" href="#">Learn more</a>
+              </div>
+            </div>
+            <div class="main__container-bottom-items">
+              <ul>
+                <li><img src="./images/client-databiz.svg" alt="" /></li>
+                <li><img src="./images/client-audiophile.svg" alt="" /></li>
+                <li><img src="./images/client-meet.svg" alt="" /></li>
+                <li><img src="./images/client-maker.svg" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+          <div class="main__container-right-items">
+            <div class="main__container-right-logo">
+              <img class="hero-desktop" src="./images//image-hero-desktop.png" alt="" />
+              <img src="./images//image-hero-mobile.png" alt="" class="hero-mobile" />
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="sidebar-nav">
+      <div class="close-btn">
+        <img class="close" src="./images/icon-close-menu.svg" alt="" />
+      </div>
+      <ul>
+        <li class="side-dropdown" data-dropdown-side>
+          <a class="side-link-a" href="#" data-dropdown-button-side>
+            Features <img src="./images/icon-arrow-down.svg" alt="" />
+          </a>
+          <div class="side-dropdown-menu-feature">
+            <div class="side-information">
+              <a href="#"> <img src="./images/icon-todo.svg" alt="" /> <span>Todo List</span> </a>
+
+              <a href="#">
+                <img src="./images/icon-calendar.svg" alt="" /> <span>Calendar</span>
+              </a>
+              <a href="#">
+                <img src="./images/icon-reminders.svg" alt="" /> <span>Reminders</span>
+              </a>
+
+              <a href="#">
+                <img src="./images/icon-planning.svg" alt="" /> <span>Planning</span>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="side-dropdown" data-dropdown>
+          <a class="side-link-b" href="#" data-dropdown-button
+            >Company <img src="./images/icon-arrow-down.svg" alt=""
+          /></a>
+          <div class="side-dropdown-menu-company">
+            <div class="information-right">
+              <a href="#"> <span>History</span> </a>
+              <a href="#"><span>Our Team</span></a>
+              <a href="#"><span>Blog</span></a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
